@@ -1,0 +1,103 @@
+{
+    "tourGuide": {
+        "name": "Rahim Ahmed",
+        "photo": "url/to/profile/photo.jpg",
+        "contact": {
+            "email": "rahim.ahmed@email.com",
+            "phone": "+880123456789",
+            "other": "Additional contact info if any"
+        },
+        "location": "Dhaka, Bangladesh",
+        "languagesSpoken": [
+            "Bengali",
+            "English"
+        ],
+        "specialties": [
+            "Historical Tours",
+            "Cultural Experiences",
+            "Nature Walks"
+        ],
+        "certifications": [
+            "Certified Tour Guide"
+        ],
+        "experience": "7 years",
+        "tourPackages": [
+            {
+                "tourTitle": "Bengali Street Food Delight",
+                "tourType": "Culinary",
+                "images": [
+                    "https://i.pinimg.com/736x/a2/d0/33/a2d033f0d54b3199811449d14d264aef.jpg",
+                    "https://i.pinimg.com/564x/95/af/e4/95afe43e384f044722e3028051867a51.jpg",
+                    "https://i.pinimg.com/564x/9b/65/b6/9b65b6f4473393641df89633af47a183.jpg",
+                    "https://i.pinimg.com/564x/14/38/26/143826ecd0276ef960d7d4d9d7dd7136.jpg",
+                    "https://i.pinimg.com/564x/b4/e3/81/b4e381ff362c65832e56462d9cde9033.jpg",
+                    "https://i.pinimg.com/564x/91/41/d8/9141d85c66e40504f4909a8e5045812e.jpg"
+                ],
+                "longDescription": "Indulge in the flavors of Bangladesh with our Bengali Street Food Delight. Explore local markets and savor authentic Bengali street delicacies.",
+                "price": 34.99,
+                "location": "Dhaka, Bangladesh",
+                "touristStory": "The Bengali Street Food Delight tour was a gastronomic adventure. Ismail, our guide, introduced us to the vibrant world of Bengali street cuisine.",
+                "rating": 4.6
+            },
+            {
+                "tourTitle": "Cox's Bazar Beach Retreat",
+                "tourType": "Beach",
+                "images": [
+                    "https://i.pinimg.com/564x/bf/45/64/bf4564ff53c9699e3c153904796b7eb4.jpg",
+                    "https://i.pinimg.com/564x/ed/d1/9e/edd19ee21fe8e06a96aeab26dcd2129c.jpg",
+                    "https://i.pinimg.com/564x/c4/19/38/c41938d03a5a82bf284a820837a1086d.jpg",
+                    "https://i.pinimg.com/564x/f8/03/58/f80358e98fc2b28f072b1b34b7bc54d0.jpg",
+                    "https://i.pinimg.com/564x/24/19/b7/2419b7faae8de38b3112c7eb7ad3ee64.jpg",
+                    "https://i.pinimg.com/564x/25/3e/57/253e57d0d79f8389066f45c1553eae4c.jpg"
+                ],
+                "longDescription": "Relax on the longest natural sea beach with our Cox's Bazar Beach Retreat. Enjoy sunsets, beach sports, and the serene atmosphere.",
+                "price": 79.99,
+                "location": "Cox's Bazar, Bangladesh",
+                "touristStory": "The Cox's Bazar Beach Retreat was a blissful escape. Rahim, our guide, provided insights into the local culture. A perfect beach getaway!",
+                "rating": 4.8
+            }
+        ],
+        "testimonials": [
+            {
+                "client": "Happy Traveler",
+                "quote": "Rahim's knowledge of Bangladesh's history made the tour truly enriching."
+            },
+            {
+                "client": "Nature Lover",
+                "quote": "The Sundarbans tour with Rahim was a unique and unforgettable experience."
+            }
+        ],
+        "availability": {
+            "days": [
+                "Tuesday",
+                "Thursday",
+                "Saturday"
+            ],
+            "times": "10:00 AM - 6:00 PM"
+        },
+        "acceptedPaymentMethods": [
+            "Cash",
+            "Bank Transfer"
+        ],
+        "cancellationPolicy": "Cancellation must be made 48 hours in advance for a full refund.",
+        "termsAndConditions": "Please respect local customs and guidelines during the tour for a harmonious experience.",
+        "reviews": [
+            {
+                "user": "JohnDoe123",
+                "image": "https://img.freepik.com/free-photo/handsome-bearded-businessman-rubbing-hands-having-deal_176420-18778.jpg?size=626&ext=jpg&ga=GA1.1.863241194.1678273173&semt=sph",
+                "rating": 5,
+                "title": "Amazing Experience!",
+                "body": "The service was excellent, but the rooms could use some modernization. Overall, a pleasant stay. Will return with some enhancements.",
+                "date": "2023-11-25"
+            },
+            {
+                "user": "JaneSmith456",
+                "image": "https://img.freepik.com/free-photo/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg?w=740&t=st=1700838160~exp=1700838760~hmac=6aa4dbb8abb8067497635ffd486603fad55cad7897b2687e216fcf0899ba8148",
+                "rating": 4,
+                "title": "Great Service but Room for Improvement",
+                "body": "The service was excellent, but the rooms could use some modernization. Overall, a pleasant stay. Will return with some enhancements.",
+                "date": "2023-11-24"
+            }
+        ]
+    }
+}

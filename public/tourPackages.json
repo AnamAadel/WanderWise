@@ -1,0 +1,178 @@
+[
+    {
+        "tourTitle": "Dhaka Discovery",
+        "tourType": "City Tour",
+        "images": [
+            "https://images.pexels.com/photos/11596373/pexels-photo-11596373.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "https://images.pexels.com/photos/18340726/pexels-photo-18340726/free-photo-of-apartment-buildings-in-the-residential-district-of-dhaka-built-as-part-of-the-rajuk-uttara-apartment-project.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "https://images.pexels.com/photos/12040412/pexels-photo-12040412.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "https://images.pexels.com/photos/18152208/pexels-photo-18152208/free-photo-of-passengers-on-railway-station-in-dhaka.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "https://images.pexels.com/photos/11260693/pexels-photo-11260693.png?auto=compress&cs=tinysrgb&w=400",
+            "https://images.pexels.com/photos/13108628/pexels-photo-13108628.jpeg?auto=compress&cs=tinysrgb&w=400"
+        ],
+        "longDescription": "Explore the heart of Bangladesh with our Dhaka Discovery tour. Dive into the cultural richness, historical landmarks, and bustling markets of Dhaka.",
+        "price": 39.99,
+        "tourGuide": {
+            "email": "amin@gmail.com",
+            "name": "Farid Ahmed"
+        },
+        "location": "Dhaka, Bangladesh",
+        "touristStory": "The Dhaka Discovery tour provided an immersive experience. Farid, our guide, shared the vibrant history of the city. A memorable journey!",
+        "rating": 4.7,
+        "video": "nHNfDlvFBtQ"
+    },
+    {
+        "tourTitle": "Sundarbans Wildlife Safari",
+        "tourType": "Wildlife",
+        "images": [
+            "https://images.unsplash.com/photo-1549300461-11c5b94e8855?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3VuZGFyYmFufGVufDB8fDB8fHww",
+            "https://images.unsplash.com/photo-1540018177157-957400dbd08a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c3VuZGFyYmFufGVufDB8fDB8fHww",
+            "https://images.unsplash.com/photo-1633453174803-acb1b082f9e3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c3VuZGFyYmFufGVufDB8fDB8fHww",
+            "https://images.unsplash.com/photo-1572459840810-506674748e1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHN1bmRhcmJhbnxlbnwwfHwwfHx8MA%3D%3D",
+            "https://images.unsplash.com/photo-1612536090790-680138b3f2cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN1bmRhcmJhbnxlbnwwfHwwfHx8MA%3D%3D",
+            "https://images.unsplash.com/photo-1607441078533-77ba814b1e5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3VuZGFyYmFufGVufDB8fDB8fHww"
+        ],
+        "longDescription": "Embark on a thrilling Sundarbans Wildlife Safari. Witness the diverse flora and fauna, including the Bengal tiger, in the largest mangrove forest.",
+        "price": 79.99,
+        "tourGuide": {
+            "email": "amin@gmail.com",
+            "name": "Parveen Khan"
+        },
+        "location": "Sundarbans, Bangladesh",
+        "touristStory": "The Sundarbans Wildlife Safari was an adventure like no other. Parveen, our guide, provided insights into the unique ecosystem. Truly remarkable!",
+        "rating": 4.9,
+        "video": "hVU9Jh_4gT4"
+    },
+    {
+        "tourTitle": "Historic Rajshahi Tour",
+        "tourType": "Cultural",
+        "images": [
+            "https://media.gettyimages.com/id/891941170/photo/chapai-rajshahi-bangladesh-people-sell-mango-at-the-local-market-they-take-micro-credit-loans.jpg?s=612x612&w=0&k=20&c=yDDUmKOLgSSO6_KzcMYvDvKsKtYcRvPpYrMnmjmFWKw=",
+            "https://media.gettyimages.com/id/891941090/photo/chapai-rajshahi-bangladesh-people-are-carrying-mango-on-their-bicycle-for-selling-at-local.jpg?s=612x612&w=0&k=20&c=MY0iGWB63oL_eY8rUuOqNT6ZTIuvAA3RtNg-M94om2E=",
+            "https://media.gettyimages.com/id/566456315/photo/lychees-or-lichu-from-kalipur-village-of-chittagong-are-second-to-the-lychees-of-rajshahi-in.jpg?s=612x612&w=0&k=20&c=t3uQTpq1pNrzo_KLqAIOLNkbiG2CrSW4422EybPvA0k=",
+            "https://media.gettyimages.com/id/936167646/photo/small-group-of-pilgrims-splashing-and-fooling-around-in-river-sri-krishnapur-rajshahi.jpg?s=612x612&w=0&k=20&c=XqB-opGip52kUpwMnA2LQpWc28XEkXj4OO7YZN_5kZo=",
+            "https://media.gettyimages.com/id/566456081/photo/a-traditional-wooden-plow-against-the-wall-of-a-santal-home-in-joypurhat-rajshahi-bangladesh.jpg?s=612x612&w=0&k=20&c=UimQXmIixVTYxLIIrBfLof3arng446MKqHDlrCkCCe8=",
+            "https://media.gettyimages.com/id/566455309/photo/a-handcrafted-broom-at-the-santal-community-in-joypurhat-rajshahi-bangladesh-may-20-2011-the.jpg?s=612x612&w=0&k=20&c=fZkrTu3FSsNlQmCUgRwQRHnf5DkjsmC7kWycNc7jXoM="
+        ],
+        "longDescription": "Step into the history of Bangladesh with our Historic Rajshahi Tour. Visit ancient monuments, archaeological sites, and vibrant local markets.",
+        "price": 44.99,
+        "tourGuide": {
+            "email": "amin@gmail.com",
+            "name": "Ayesha Rahman"
+        },
+        "location": "Rajshahi, Bangladesh",
+        "touristStory": "The Historic Rajshahi Tour was a cultural feast. Ayesha, our guide, shared fascinating stories about the region's rich heritage. Highly recommended!",
+        "rating": 4.8,
+        "video": "8yXReWYa5Ak"
+    },
+    {
+        "tourTitle": "Tea Gardens of Sylhet",
+        "tourType": "Nature",
+        "images": [
+            "https://i.pinimg.com/564x/80/ff/ff/80ffff85c914bb06af9f9de6836bfbef.jpg",
+            "https://i.pinimg.com/564x/21/53/2f/21532f8005f21008b29d629409872fc1.jpg",
+            "https://i.pinimg.com/564x/3e/0b/db/3e0bdbb5ae035cfa84e31ffd8625ee55.jpg",
+            "https://i.pinimg.com/236x/5d/85/cd/5d85cd208381378150e34a3efd843cad.jpg",
+            "https://i.pinimg.com/236x/76/50/bb/7650bbf2e40da139e880260fdfd3fc13.jpg",
+            "https://i.pinimg.com/236x/00/da/99/00da993d7caf6b3edfe8877b32bc33b3.jpg"
+        ],
+        "longDescription": "Escape to the lush Tea Gardens of Sylhet. Enjoy breathtaking landscapes, aromatic tea plantations, and the tranquility of nature.",
+        "price": 49.99,
+        "tourGuide": {
+            "email": "amin@gmail.com",
+            "name": "Kamal Ahmed"
+        },
+        "location": "Sylhet, Bangladesh",
+        "touristStory": "The Tea Gardens of Sylhet tour was a rejuvenating experience. Kamal, our guide, shared the secrets of tea cultivation. A peaceful retreat!",
+        "rating": 4.8,
+        "video": "f_vibGjqNLg"
+    },
+    {
+        "tourTitle": "River Cruise in Padma",
+        "tourType": "Cruise",
+        "images": [
+            "https://i.pinimg.com/236x/17/21/b5/1721b5f3a6c7ca8ec8fea5c50b0bde9f.jpg",
+            "https://i.pinimg.com/236x/3a/b7/43/3ab7438609ddd87b742bd19532893a41.jpg",
+            "https://i.pinimg.com/564x/a0/32/5e/a0325ec66b175841f5ed9d46d5be9f63.jpg",
+            "https://i.pinimg.com/564x/6f/e7/a5/6fe7a519f6b30d6ef53f4e63224b7dc8.jpg",
+            "https://i.pinimg.com/564x/5b/67/d6/5b67d6d6f1f8d4f620adda92a7dfd489.jpg",
+            "https://i.pinimg.com/564x/70/22/93/702293a439daaf8cd82fa046c68424e3.jpg"
+        ],
+        "longDescription": "Embark on a scenic River Cruise in Padma. Witness the beauty of Bangladesh's waterways, traditional boat races, and riverside villages.",
+        "price": 59.99,
+        "tourGuide": {
+            "email": "amin@gmail.com",
+            "name": "Rafiqul Islam"
+        },
+        "location": "Padma River, Bangladesh",
+        "touristStory": "The River Cruise in Padma was a mesmerizing journey. Rafiqul, our guide, made the experience unforgettable with local stories and folklore.",
+        "rating": 4.7,
+        "video": "nrNOl8s5Lng"
+    },
+    {
+        "tourTitle": "Chittagong Hill Tracts Adventure",
+        "tourType": "Adventure",
+        "images": [
+            "https://i.pinimg.com/564x/48/a3/6f/48a36f7e5782ba62be04f0b5ede96e06.jpg",
+            "https://i.pinimg.com/564x/8f/5d/62/8f5d6292e30237d5914c2b2cc41ba26f.jpg",
+            "https://i.pinimg.com/564x/7e/69/b8/7e69b8435b807feed249547eff179a58.jpg",
+            "https://i.pinimg.com/564x/f1/2c/dc/f12cdc93ac4de9b3897fd34b841f8ea3.jpg",
+            "https://i.pinimg.com/564x/fe/a5/a8/fea5a8ecf2a77a926681fc92a62cce19.jpg",
+            "https://i.pinimg.com/564x/87/4b/6f/874b6fa55f03ced01d9122e4c1c7b634.jpg"
+        ],
+        "longDescription": "Embark on an adventurous journey through the Chittagong Hill Tracts. Explore tribal cultures, scenic landscapes, and hiking trails.",
+        "price": 69.99,
+        "tourGuide": {
+            "email": "amin@gmail.com",
+            "name": "Nasir Akhtar"
+        },
+        "location": "Chittagong Hill Tracts, Bangladesh",
+        "touristStory": "The Chittagong Hill Tracts Adventure was an adrenaline-pumping experience. Nasir, our guide, shared stories of the indigenous communities.",
+        "rating": 4.9,
+        "video": "ADwo9l7gwFU-yfta8Q7"
+    },
+    {
+        "tourTitle": "Bengali Street Food Delight",
+        "tourType": "Culinary",
+        "images": [
+            "https://i.pinimg.com/736x/a2/d0/33/a2d033f0d54b3199811449d14d264aef.jpg",
+            "https://i.pinimg.com/564x/95/af/e4/95afe43e384f044722e3028051867a51.jpg",
+            "https://i.pinimg.com/564x/9b/65/b6/9b65b6f4473393641df89633af47a183.jpg",
+            "https://i.pinimg.com/564x/14/38/26/143826ecd0276ef960d7d4d9d7dd7136.jpg",
+            "https://i.pinimg.com/564x/b4/e3/81/b4e381ff362c65832e56462d9cde9033.jpg",
+            "https://i.pinimg.com/564x/91/41/d8/9141d85c66e40504f4909a8e5045812e.jpg"
+        ],
+        "longDescription": "Indulge in the flavors of Bangladesh with our Bengali Street Food Delight. Explore local markets and savor authentic Bengali street delicacies.",
+        "price": 34.99,
+        "tourGuide": {
+            "email": "amin@gmail.com",
+            "name": "Ismail Khan"
+        },
+        "location": "Dhaka, Bangladesh",
+        "touristStory": "The Bengali Street Food Delight tour was a gastronomic adventure. Ismail, our guide, introduced us to the vibrant world of Bengali street cuisine.",
+        "rating": 4.6,
+        "video": "e1zzypafC6A"
+    },
+    {
+        "tourTitle": "Cox's Bazar Beach Retreat",
+        "tourType": "Beach",
+        "images": [
+            "https://i.pinimg.com/564x/bf/45/64/bf4564ff53c9699e3c153904796b7eb4.jpg",
+            "https://i.pinimg.com/564x/ed/d1/9e/edd19ee21fe8e06a96aeab26dcd2129c.jpg",
+            "https://i.pinimg.com/564x/c4/19/38/c41938d03a5a82bf284a820837a1086d.jpg",
+            "https://i.pinimg.com/564x/f8/03/58/f80358e98fc2b28f072b1b34b7bc54d0.jpg",
+            "https://i.pinimg.com/564x/24/19/b7/2419b7faae8de38b3112c7eb7ad3ee64.jpg",
+            "https://i.pinimg.com/564x/25/3e/57/253e57d0d79f8389066f45c1553eae4c.jpg"
+        ],
+        "longDescription": "Relax on the longest natural sea beach with our Cox's Bazar Beach Retreat. Enjoy sunsets, beach sports, and the serene atmosphere.",
+        "price": 79.99,
+        "tourGuide": {
+            "email": "amin@gmail.com",
+            "name": "Rahim Khan"
+        },
+        "location": "Cox's Bazar, Bangladesh",
+        "touristStory": "The Cox's Bazar Beach Retreat was a blissful escape. Rahim, our guide, provided insights into the local culture. A perfect beach getaway!",
+        "rating": 4.8,
+        "video": "f_vibGjqNLg"
+    }
+]

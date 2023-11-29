@@ -1,0 +1,92 @@
+[
+    {
+        "name": "John D.",
+        "location": "New York, USA",
+        "date": "May 2022",
+        "title": "",
+        "tourType": "City Tour",
+        "story": "I had an amazing experience exploring the city with this tour company. The guide was knowledgeable, and the itinerary was well-planned. I particularly enjoyed the historical sites and the local cuisine. Highly recommended!",
+        "rating": 5,
+        "photo": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=2000",
+        "spotPhoto": "https://images.pexels.com/photos/18340726/pexels-photo-18340726/free-photo-of-apartment-buildings-in-the-residential-district-of-dhaka-built-as-part-of-the-rajuk-uttara-apartment-project.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "videostory": "url/to/john-video.mp4",
+        "socialMedia": {
+            "facebook": "url/to/john-facebook",
+            "twitter": "url/to/john-twitter",
+            "instagram": "url/to/john-instagram"
+        },
+        "tourGuideRecognition": "Special thanks to our guide, Sarah, for making the tour memorable."
+    },
+    {
+        "name": "John D.",
+        "location": "New York, USA",
+        "date": "May 2022",
+        "title": "",
+        "tourType": "City Tour",
+        "story": "Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "rating": 5,
+        "photo": "https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg",
+        "spotPhoto": "https://i.pinimg.com/564x/3e/0b/db/3e0bdbb5ae035cfa84e31ffd8625ee55.jpg",
+        "videostory": "url/to/john-video.mp4",
+        "socialMedia": {
+            "facebook": "url/to/john-facebook",
+            "twitter": "url/to/john-twitter",
+            "instagram": "url/to/john-instagram"
+        },
+        "tourGuideRecognition": "Special thanks to our guide, Sarah, for making the tour memorable."
+    },
+    {
+        "name": "John D.",
+        "location": "New York, USA",
+        "date": "May 2022",
+        "title": "",
+        "tourType": "City Tour",
+        "story": "The Chittagong Hill Tracts Adventure was an adrenaline-pumping experience. Nasir, our guide, shared stories of the indigenous communities.",
+        "rating": 5,
+        "photo": "https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?w=740&t=st=1700838090~exp=1700838690~hmac=03f717881b7ce0c5e9979ed2c3a061d8b35fda2d3080631a33a7fc63f4328bd8",
+        "spotPhoto": "https://i.pinimg.com/236x/00/da/99/00da993d7caf6b3edfe8877b32bc33b3.jpg",
+        "videostory": "url/to/john-video.mp4",
+        "socialMedia": {
+            "facebook": "url/to/john-facebook",
+            "twitter": "url/to/john-twitter",
+            "instagram": "url/to/john-instagram"
+        },
+        "tourGuideRecognition": "Special thanks to our guide, Sarah, for making the tour memorable."
+    },
+    {
+        "name": "John D.",
+        "location": "New York, USA",
+        "date": "May 2022",
+        "title": "",
+        "tourType": "City Tour",
+        "story": "Indulge in the flavors of Bangladesh with our Bengali Street Food Delight. Explore local markets and savor authentic Bengali street delicacies.!",
+        "rating": 5,
+        "photo": "https://img.freepik.com/free-photo/handsome-bearded-businessman-rubbing-hands-having-deal_176420-18778.jpg?size=626&ext=jpg&ga=GA1.1.863241194.1678273173&semt=sph",
+        "spotPhoto": "https://i.pinimg.com/564x/a0/32/5e/a0325ec66b175841f5ed9d46d5be9f63.jpg",
+        "videostory": "url/to/john-video.mp4",
+        "socialMedia": {
+            "facebook": "url/to/john-facebook",
+            "twitter": "url/to/john-twitter",
+            "instagram": "url/to/john-instagram"
+        },
+        "tourGuideRecognition": "Special thanks to our guide, Sarah, for making the tour memorable."
+    },
+    {
+        "name": "John D.",
+        "location": "New York, USA",
+        "date": "May 2022",
+        "title": "",
+        "tourType": "City Tour",
+        "story": "The Chittagong Hill Tracts Adventure was an adrenaline-pumping experience. Nasir, our guide, shared stories of the indigenous communities.",
+        "rating": 5,
+        "photo": "https://img.freepik.com/free-photo/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg?w=740&t=st=1700838160~exp=1700838760~hmac=6aa4dbb8abb8067497635ffd486603fad55cad7897b2687e216fcf0899ba8148",
+        "spotPhoto": "https://i.pinimg.com/564x/f1/2c/dc/f12cdc93ac4de9b3897fd34b841f8ea3.jpg",
+        "videostory": "url/to/john-video.mp4",
+        "socialMedia": {
+            "facebook": "url/to/john-facebook",
+            "twitter": "url/to/john-twitter",
+            "instagram": "url/to/john-instagram"
+        },
+        "tourGuideRecognition": "Special thanks to our guide, Sarah, for making the tour memorable."
+    }
+]
