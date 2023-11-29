@@ -1,7 +1,7 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import DashboardSidebar from './components/dashboardSidebar'
-import { useAuth } from '../context/AuthProvider'
+import React from 'react';
+import { Outlet } from 'react-router-dom';
+import { useAuth } from '../context/AuthProvider';
+import DashboardSidebar from './components/DashboardSidebar';
 
 function Main() {
   const {loading}= useAuth();
