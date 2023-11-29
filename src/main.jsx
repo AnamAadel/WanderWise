@@ -18,7 +18,7 @@ import AdminHome from './dashboard/pages/admin/AdminHome';
 import MyBookings from './dashboard/pages/booking/MyBookings';
 import ManageUsers from './dashboard/pages/manageUsers/ManageUsers';
 import UserHome from './dashboard/pages/userHome/UserHome';
-import WishList from './dashboard/pages/wishlist/Wishlist';
+import WishList from './dashboard/pages/wishlist/WishList';
 import useAxiosPublic from './hooks/useAxiosPablic';
 import "./index.css";
 import ErrorPage from './pages/ErrorPage';

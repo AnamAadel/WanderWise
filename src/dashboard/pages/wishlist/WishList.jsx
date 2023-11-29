@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../../../context/AuthProvider';
 import useAxiosSecure from '../../../hooks/useAxiosSecure';
+import swal from 'sweetalert';
 
 function WishList() {
     
@@ -19,28 +20,28 @@ function WishList() {
         setWishlistItem(filterItem)
         const parsingData = JSON.stringify(filterIds)
         localStorage.setItem("wishlist", parsingData)
-        // swal({
-        //     title: "Are you sure?",
-        //     text: "Once deleted, you will not be able to recover this item!",
-        //     icon: "warning",
-        //     buttons: true,
-        //     dangerMode: true,
-        // })
-        //     .then((willDelete) => {
-        //         if (willDelete) {
+        swal({
+            title: "Are you sure?",
+            text: "Once deleted, you will not be able to recover this item!",
+            icon: "warning",
+            buttons: true,
+            dangerMode: true,
+        })
+            .then((willDelete) => {
+                if (willDelete) {
 
 
-        //             axiosSecure.delete(`/menu/${item._id}`).then(res => {
-        //                 console.log(res.data);
-        //                 swal(` "${item.name}" has been deleted!`, {
-        //                     icon: "success",
-        //                 });
-        //                 refetch()
-        //             }).catch((err) => console.log(err));
-        //         } else {
-        //             swal("Your item is safe!");
-        //         }
-        //     });
+                    axiosSecure.delete(`/menu/${item._id}`).then(res => {
+                        console.log(res.data);
+                        swal(` "${item.name}" has been deleted!`, {
+                            icon: "success",
+                        });
+                        refetch()
+                    }).catch((err) => console.log(err));
+                } else {
+                    swal("Your item is safe!");
+                }
+            });
 
     }
 
