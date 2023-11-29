@@ -8,7 +8,6 @@ function useAddToCart() {
     const {user} = useAuth();
     const {refetch} = useGetCartItems()
     const handleAddToCart = (item)=> {
-        console.log(item);
         const menuId = item._id;
         const cartData = {email: user?.email, menuId , ...item}
         if(user){
