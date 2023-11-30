@@ -10,6 +10,34 @@ function ManageUsers() {
     
     
     const makeUserAdmin = (tourist) => {
+        
+
+        swal({
+            title: "Are you sure?",
+            text: "Once do this, you will not be able to recover this item!",
+            icon: "warning",
+            buttons: true,
+            dangerMode: true,
+        })
+            .then((willDelete) => {
+                if (willDelete) {
+
+
+                    axiosSecure.put(`/users/admin/${tourist._id}`).then(res => {
+                        console.log(res.data);
+                        swal(` "${tourist.name}" has been updated!`, {
+                            icon: "success",
+                        });
+                        refetch()
+                    }).catch((err) => console.log(err));
+                } else {
+                    swal("User is safe!");
+                }
+            });
+
+    }
+
+    const makeUserTourGuide = (user) => {
         const tourGuideFormat = {
             photo: "",
             phone: "",
@@ -27,7 +55,6 @@ function ManageUsers() {
             acceptedPaymentMethods: [],
             reviews: []
         }
-
         swal({
             title: "Are you sure?",
             text: "Once do this, you will not be able to recover this item!",
@@ -39,33 +66,7 @@ function ManageUsers() {
                 if (willDelete) {
 
 
-                    axiosSecure.put(`/users/admin/${tourist._id}`, tourGuideFormat).then(res => {
-                        console.log(res.data);
-                        swal(` "${tourist.name}" has been updated!`, {
-                            icon: "success",
-                        });
-                        refetch()
-                    }).catch((err) => console.log(err));
-                } else {
-                    swal("User is safe!");
-                }
-            });
-
-    }
-
-    const makeUserTourGuide = (user) => {
-        swal({
-            title: "Are you sure?",
-            text: "Once do this, you will not be able to recover this item!",
-            icon: "warning",
-            buttons: true,
-            dangerMode: true,
-        })
-            .then((willDelete) => {
-                if (willDelete) {
-
-
-                    axiosSecure.put(`/users/tourGuide/${user._id}`).then(res => {
+                    axiosSecure.put(`/users/tourGuide/${user._id}`, tourGuideFormat ).then(res => {
                         console.log(res.data);
                         swal(` "${user.name}" has been updated!`, {
                             icon: "success",
