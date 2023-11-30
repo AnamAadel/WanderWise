@@ -20,7 +20,6 @@ import MyBookings from './dashboard/pages/booking/MyBookings';
 import ManageUsers from './dashboard/pages/manageUsers/ManageUsers';
 import UserHome from './dashboard/pages/userHome/UserHome';
 import WishList from './dashboard/pages/wishlist/WishList';
-import useAxiosPublic from './hooks/useAxiosPablic';
 import "./index.css";
 import ErrorPage from './pages/ErrorPage';
 import Login from "./pages/Login";
@@ -39,7 +38,7 @@ import StoryDetails from './pages/stories/StoryDetails';
 import PrivateRoute from './routes/PrivateRoute';
 import PublicRoute from './routes/PublicRoute';
 import('preline')
-const axiosPublic = useAxiosPublic();
+
 
 const router = createBrowserRouter([
   {
@@ -69,7 +68,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/blog/:id",
-        loader: ({params})=> axiosPublic.get(`/blog/${params.id}`),
+        loader: ({params})=> axios.get(`https://assignment-12-server-vercel.vercel.app/blog/${params.id}`),
         element: <BlogDetails />
 
       },
@@ -83,7 +82,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/packageDetail/:id",
-        loader: ({params})=> axiosPublic.get(`/packages/${params.id}`) ,
+        loader: ({params})=> axios.get(`https://assignment-12-server-vercel.vercel.app/packages/${params.id}`) ,
         element: <PackageDetails />
       },
       {
@@ -92,12 +91,12 @@ const router = createBrowserRouter([
       },
       {
         path: "/story/:id",
-        loader: ({params})=> axiosPublic.get(`/stories/${params.id}`),
+        loader: ({params})=> axios.get(`https://assignment-12-server-vercel.vercel.app/stories/${params.id}`),
         element: <StoryDetails />
       },
       {
         path: "/tourGuideProfile/:id",
-        loader: ({params})=> axiosPublic.get(`/tourGuides/${params.id}`),
+        loader: ({params})=> axios.get(`https://assignment-12-server-vercel.vercel.app/tourGuides/${params.id}`),
         element: <TourGuideProfile />
       },
       {
