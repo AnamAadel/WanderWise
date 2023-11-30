@@ -100,7 +100,7 @@ function TourGuideProfile() {
             <div className='col-span-full'>
 
                 <Testimonials />
-                <Reviews />
+                <Reviews guideInfo={data} />
             </div>
         </div>
         </main>

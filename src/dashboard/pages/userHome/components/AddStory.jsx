@@ -13,8 +13,7 @@ import UserStats from './UserStats';
 function AddStory() {
     const [startDate, setStartDate] = useState(new Date());
     const [tourType , setTourType] = useState([]);
-    const [rating , setRating] = useState(0);
-    const [ratingError , setRatingError] = useState("");
+    
     const axiosPublic = useAxiosPublic()
     const axiosSecure = useAxiosSecure()
     const {user} = useAuth();
