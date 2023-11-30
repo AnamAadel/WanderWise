@@ -4,10 +4,10 @@ import { useAuth } from "../context/AuthProvider";
 
 const axiosSecure = axios.create({
     // baseURL: "http://localhost:5000"
-    baseURL: "https://assignment-12-server-vercel.vercel.app/"
+    baseURL: "https://assignment-12-server-vercel.vercel.app"
 })
-// 60marksWithGift@gmail.com
-// 60marksWithGift
+// marks60withgift@gmail.com
+// marks60WithGift
 // Add a request interceptor
 
 function useAxiosSecure() {
