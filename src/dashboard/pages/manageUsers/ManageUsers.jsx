@@ -10,6 +10,24 @@ function ManageUsers() {
     
     
     const makeUserAdmin = (tourist) => {
+        const tourGuideFormat = {
+            photo: "",
+            phone: "",
+            location: "",
+            experience: "",
+            role: "tourGuide",
+            cancellationPolicy: "",
+            termsAndConditions: "",
+            languagesSpoken: [],
+            specialties: [],
+            certifications: [],
+            tourPackages: [],
+            testimonials: [],
+            availability: [],
+            acceptedPaymentMethods: [],
+            reviews: []
+        }
+
         swal({
             title: "Are you sure?",
             text: "Once do this, you will not be able to recover this item!",
@@ -21,7 +39,7 @@ function ManageUsers() {
                 if (willDelete) {
 
 
-                    axiosSecure.put(`/users/admin/${tourist._id}`).then(res => {
+                    axiosSecure.put(`/users/admin/${tourist._id}`, tourGuideFormat).then(res => {
                         console.log(res.data);
                         swal(` "${tourist.name}" has been updated!`, {
                             icon: "success",
