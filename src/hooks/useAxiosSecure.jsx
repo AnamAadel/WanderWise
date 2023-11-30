@@ -3,9 +3,10 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthProvider";
 
 const axiosSecure = axios.create({
-    baseURL: "http://localhost:5000"
+    baseURL: "https://assignment-12-server-vercel.vercel.app/"
 })
-
+// 60marksWithGift@gmail.com
+// 60marksWithGift
 // Add a request interceptor
 
 function useAxiosSecure() {
