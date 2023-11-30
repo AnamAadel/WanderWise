@@ -49,7 +49,7 @@ const axiosPublic = useAxiosPublic();
         axiosPublic.post("/jwt", {email: currentUser.email}).then(res => localStorage.setItem("accessToken", res.data)).catch(err => console.log(err));
         
         setLoading(false)
-        axiosPublic.get(`/users/admin?email=${currentUser.email}`).then(res => {
+        axiosPublic.get(`/users/userRole?email=${currentUser.email}`).then(res => {
           setRole(res.data.userRole)
           console.log(res.data.userRole)
           console.log(res.data)
