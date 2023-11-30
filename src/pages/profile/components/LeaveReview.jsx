@@ -4,7 +4,7 @@ import ReactStars from "react-rating-stars-component";
 import ReviewForm from './ReviewForm';
 import { useForm } from 'react-hook-form';
 
-function LeaveReview({guideInfo}) {
+function LeaveReview({guideInfo, reviews, setReviews}) {
   
   const [rating , setRating] = useState(0);
   const [ratingError , setRatingError] = useState("");
@@ -36,7 +36,7 @@ function LeaveReview({guideInfo}) {
                     <span className="text-red-400 block font-medium">{ratingError}</span>
         </h3>
 
-        <ReviewForm guideInfo={guideInfo} setRatingError={setRatingError} rating={rating} />
+        <ReviewForm reviews={reviews} setReviews={setReviews} guideInfo={guideInfo} setRatingError={setRatingError} rating={rating} />
 
     </div>
   )

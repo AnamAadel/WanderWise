@@ -1,9 +1,10 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import swal from 'sweetalert';
 import { useAuth } from '../../../context/AuthProvider';
 import useAxiosSecure from '../../../hooks/useAxiosSecure';
 
-function ReviewForm({rating, setRatingError, guideInfo}) {
+function ReviewForm({rating, setRatingError, guideInfo, reviews, setReviews}) {
   const {user} = useAuth();
   const axiosSecure = useAxiosSecure()
   const {
@@ -21,6 +22,11 @@ const handleComment = (data)=> {
 
     axiosSecure.put(`/tourGuides/review/${guideInfo?._id}`, commentData).then(res => {
       console.log(res)
+      swal({
+        title: "Added comment successfully!",
+        icon: "success",
+    });
+    setReviews([...reviews, commentData]);
     }).catch(err => {
       console.log(err);
     })
